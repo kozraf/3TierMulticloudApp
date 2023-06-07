@@ -1,8 +1,8 @@
 module "aws" {
   source = "kozraf/vm/cloud//modules/aws"
   environment = {
-    name             = "AWS" #B
-    background_color = "orange" #B
+    name             = "AWS"
+    background_color = "orange"
   }
 }
 
